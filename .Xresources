@@ -1,0 +1,94 @@
+xterm*utf8:	1
+!------------------
+!  URxvt Settings
+!------------------
+URxvt*termName: rxvt-unicode
+
+! scrollbar
+URxvt*scrollBar: false
+URxvt*internalBorder: 20
+
+! disable ctrl-shift
+URxvt*iso14755_52: false
+URxvt*iso14755: false
+
+URxvt*letterSpace: -1
+!----------------
+!  Xft Settings
+!----------------
+
+Xft*dpi: 82
+Xft*antialias:  true
+Xft*hinting:    true
+Xft*rgba:       rgb
+Xft*autohint:   false
+Xft*hintstyle:  hintfull
+Xft*lcdfilter:  lcddefault
+
+!----------------
+!  Font Setting
+!----------------
+
+URxvt.font: xft:FuraCode Nerd Font Mono:style=Regular:size=10
+URxvt.boldFont: xft:FuraCode Nerd Font Mono:style=Bold:size=10
+
+!start-color-theme
+! Molokai theme
+! See: https://gist.github.com/vreon/845878
+xterm*background: #101010
+xterm*foreground: #d0d0d0
+xterm*cursorColor: #d0d0d0
+xterm*color0: #101010
+xterm*color1: #960050
+xterm*color2: #66aa11
+xterm*color3: #c47f2c
+xterm*color4: #30309b
+xterm*color5: #7e40a5
+xterm*color6: #3579a8
+xterm*color7: #9999aa
+xterm*color8: #303030
+xterm*color9: #ff0090
+xterm*color10: #80ff00
+xterm*color11: #ffba68
+xterm*color12: #5f5fee
+xterm*color13: #bb88dd
+xterm*color14: #4eb4fa
+xterm*color15: #d0d0d0
+
+! Molokai theme
+! See: https://gist.github.com/vreon/845878
+urxvt*background: #101010
+urxvt*foreground: #d0d0d0
+urxvt*cursorColor: #d0d0d0
+urxvt*color0: #101010
+urxvt*color1: #960050
+urxvt*color2: #66aa11
+urxvt*color3: #c47f2c
+urxvt*color4: #30309b
+urxvt*color5: #7e40a5
+urxvt*color6: #3579a8
+urxvt*color7: #9999aa
+urxvt*color8: #303030
+urxvt*color9: #ff0090
+urxvt*color10: #80ff00
+urxvt*color11: #ffba68
+urxvt*color12: #5f5fee
+urxvt*color13: #bb88dd
+urxvt*color14: #4eb4fa
+urxvt*color15:
+!end-color-theme
+
+!urxvt*depth: 10
+!urxvt*background: rgba:0043/0043/0043/0800
+
+!URxvt*depth: 10
+!URxvt*background: rgba:0000/0000/0200/c800
+
+!urxvt*transparent: true
+!urxvt*shading: 10
+
+URxvt*inheritPixmap: true
+URxvt*transparent: true
+! URxvt*shading: 0 to 99 darkens, 101 to 200 lightens
+URxvt*shading: 10
+
